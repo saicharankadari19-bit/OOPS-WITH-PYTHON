@@ -1,0 +1,14 @@
+class Vehicle:
+    def __init__(self,Brand,Model):
+        self.Brand=Brand
+        self.Model=Model
+class Car(Vehicle):
+    def display(self):
+        print("BMW (Bayerische Motoren Werke AG) is a German luxury automobile ")
+class Bike(Vehicle):
+    def display(self):
+        print("Kawasaki's Aircraft Company began the development of a motorcycle engine in 1949")
+C=Car("BMW","M5")
+C.display()
+B=Bike("Kawasaki","Z900")
+B.display()
