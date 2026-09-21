@@ -1,0 +1,27 @@
+class shape:
+    print("AREA OF SHAPES")
+class Circle(shape):
+    def area(self):
+        r = int(input())
+        AOC = 3.14*r*r
+        print("Area of circle:",AOC)
+class Rectangle(shape):
+    def area(self):
+        l = int(input())
+        b = int(input())
+        AOR = l*b
+        print("Area of Rectangle:",AOR)
+class Triangle(shape):
+    def area(self):
+        B = int(input())
+        h = int(input())
+        AOT = 0.5*B*h
+        print("Area of triangle:",AOT)
+
+C = Circle()
+C.area()
+R = Rectangle()
+R.area()
+T = Triangle()
+T.area()
+
